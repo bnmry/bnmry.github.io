@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Ben Murray
+description: Stories and observations.
+meta_description: "Stories and observations about technology, politics and civic engagement."
 
 aboutPage: true
 
@@ -16,8 +16,8 @@ disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
 url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+author:         'Ben Murray'
+authorTwitter:  'bmurray'
 
 permalink:       /:year/:title/
 
