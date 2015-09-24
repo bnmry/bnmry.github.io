@@ -3,10 +3,14 @@
         <header id="header">
         {% if site.aboutPage %}
             <a href="{{ site.baseurl }}about">
-                <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/avatar.png"/>
+				{% if page.url != "/about/" %}
+                	<img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-stamp.gif"/>
+				{% else %}
+					<img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-photo.gif"/>
+				{% endif %}
             </a>
         {% else %}
-            <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/avatar.png"/>
+            <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-stamp.gif"/>
         {% endif %}
             <h1>{{ site.author }}</h1>
             <h2>{{ site.description }}</h2>
