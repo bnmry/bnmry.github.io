@@ -33,10 +33,11 @@ defaults:
             path: "" # empty string for all files
             type: posts
         values:
-            
+            layout: post
     -
         scope:
             path: ""
             type: drafts
         values:
+            layout: post
             
