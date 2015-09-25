@@ -70,7 +70,7 @@ h2 {
 }
 
 .profile #wrapper {
-	padding: 100px 40px 0px;
+	padding: 50px 40px 0px;
 	max-width: 600px;
 	margin: 0 auto;
 }
@@ -133,9 +133,15 @@ nav.main-nav a {
 
 }
 nav.main-nav a.cta {
+	background: #fff;
+	color: #5badf0;
+	border: 1px solid #5badf0;
+	margin-left: 12px;
+}
+
+nav.main-nav a.cta:hover {
 	background: #5badf0;
 	color: #fff;
-	margin-left: 12px;
 }
 
 #wrapper {
@@ -379,7 +385,7 @@ img {
 Post List
 =========================================== */
 #post-list,#archive-list {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #post-list li,#archive-list li {

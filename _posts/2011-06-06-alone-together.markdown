@@ -1,6 +1,6 @@
 ---
 
-title:  "Alone Together"
+title:  "Alone together"
 date:   2011-06-06 12:18:00
 description: Culture
 
