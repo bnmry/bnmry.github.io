@@ -2,7 +2,7 @@ name: Ben Murray
 description: Stories and observations.
 meta_description: "Stories and observations about technology, politics and civic engagement."
 
-￿: true
+aboutPage: true
 
 markdown: redcarpet
 highlighter: pygments
