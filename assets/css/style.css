@@ -372,6 +372,14 @@ img {
 	margin: 0 -25%;
 }
 
+.wide-vid {
+	width: 780px;
+	max-width: 780px;
+	height: 439px;
+	border-radius: 3px;
+	margin: 0 -25%;
+}
+
 /* Made with Cactus Badge */
 #badge {
 	position: absolute;

@@ -1,7 +1,7 @@
 ---
 
-title:  "What Brands Can Learn from the NAACP"
-date:   2014-07-28 04:07:49
+title:  "What brands can learn from the NAACP"
+date:   2013-10-04 04:07:49
 description: Digital Strategy
 
 ---
@@ -9,8 +9,6 @@ description: Digital Strategy
 _Originally published in Advertising Age on October 3, 2013._
 
 In the race to understand massive data sets, large companies are frequently highlighted as the big innovators. Large infrastructure projects, outsized resources and long timelines fit into a narrative that depicts the wrangling of untamed, wild data into insightful intelligence. But rarely do these projects get at the heart of their purpose, to forge a better relationship with consumers and uncover some previously unrealized passion.
-
-<!--more-->
 
 Advocacy groups have a natural advantage in connecting with supporters, but they don’t always have the means to process the valuable insights at their fingertips. As the numerical representation of their supporters’ passion and commitment, data comes in clicks, signups, petitions signed and calls made. These real-time actions of their most committed supporters provide the pulse of their organization.
 
