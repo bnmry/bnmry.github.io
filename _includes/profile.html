@@ -4,13 +4,13 @@
         {% if site.aboutPage %}
             <a href="{{ site.baseurl }}about">
 				{% if page.url != "/about/" %}
-                	<img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-stamp.gif"/>
+                	<img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-stamp.gif" alt="Website logo"/>
 				{% else %}
-					<img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-photo.gif"/>
+					<img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-photo.gif" alt="Ben Murray"/>
 				{% endif %}
             </a>
         {% else %}
-            <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-stamp.gif"/>
+            <img id="avatar" class="2x" src="{{ site.baseurl }}assets/images/brm-stamp.gif" alt="Website logo"/>
         {% endif %}
             <h1>{{ site.author }}</h1>
             <h2>{{ site.description }}</h2>
