@@ -15,8 +15,8 @@ gems: [jekyll-youtube]
 paginate: 20
 baseurl: /
 domain_name: 'http://www.benmurray.us'
-google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
+google_analytics: 'UA-504797-6'
+disqus: true
 disqus_shortname: 'bmurray'
 
 # Details for the RSS feed generator
