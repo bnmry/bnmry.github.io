@@ -1,0 +1,7 @@
+<ul id="post-list" class="archive readmore">
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%B %Y" }}</aside></a>
+        </li>
+    {% endfor %}
+</ul>
