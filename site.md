@@ -1,10 +1,10 @@
 ---
-title: About this site
+title: About the site
 permalink: site/
 profile: true
 ---
 
-## About this site ##
+# About this site #
 
 This website has been around in various forms since 2002. It is more of a sandbox for testing and experimentation than a soapbox to stand on.
 

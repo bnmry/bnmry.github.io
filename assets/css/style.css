@@ -285,6 +285,16 @@ p.small {
 	display: block;
 }
 
+p.small a{
+	color: #bbb;
+}
+
+p.small a:hover{
+	text-decoration: none;
+	color: #5badf0;
+	color: #5694f1;
+}
+
 blockquote {
 	padding-left: 15px;
 	border-left: 3px solid #eee;
