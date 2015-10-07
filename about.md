@@ -4,6 +4,8 @@ permalink: about/
 profile: true
 ---
 
+<a  href="http://photos.benmurray.us/Street-Scenes/Spring-in-Dupont/i-GvgNV9p/A"><img class="wide-img"  src="http://photos.benmurray.us/Street-Scenes/Spring-in-Dupont/i-GvgNV9p/0/L/BRM-20100401-Photo%20Hunt-215-L.jpg" alt="On the walk home.  Washington, DC.  April 2010."></a>
+
 # Hi, I'm Ben #
 
 I'm a digital strategist who enjoys building digital campaigns that bring people together for good causes. I work for Blue State Digital in New York, where I've partnered with clients like Google, NAACP, Elizabeth Glaser Pediatric AIDS Foundation, the Kapor Center, the United Way, Procter & Gamble and others.
