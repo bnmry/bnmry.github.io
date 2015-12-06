@@ -10,7 +10,9 @@ aboutPage: true
 markdown: redcarpet
 highlighter: pygments
 
-gems: [jekyll-youtube]
+gems: 
+  - jekyll-youtube
+  - jekyll-sitemap
 
 paginate: 20
 baseurl: /
