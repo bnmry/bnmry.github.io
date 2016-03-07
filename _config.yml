@@ -13,6 +13,7 @@ highlighter: pygments
 gems: 
   - jekyll-youtube
   - jekyll-sitemap
+  - jekyll-paginate
 
 paginate: 20
 baseurl: /

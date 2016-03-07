@@ -2,7 +2,7 @@
 
 title:  "What brands can learn from the NAACP"
 date:   2013-10-04 04:07:49
-description: Digital Strategy
+description: Strategy
 
 ---
 
