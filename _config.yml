@@ -7,7 +7,7 @@ BASE_PATH : http://bnmry.github.io/
 
 aboutPage: true
 
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 
 gems: 
