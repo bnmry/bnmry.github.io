@@ -14,6 +14,7 @@ gems:
   - jekyll-youtube
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-app-engine
 
 paginate: 20
 baseurl: /
@@ -21,6 +22,12 @@ domain_name: 'http://www.benmurray.us'
 google_analytics: 'UA-504797-6'
 disqus: true
 disqus_shortname: 'benmurray'
+
+# AppEngine deploy specifications
+app_engine:
+  runtime: python27
+  api_version: 1
+  default_expiration: 300s
 
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
