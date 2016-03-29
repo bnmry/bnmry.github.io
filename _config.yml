@@ -8,7 +8,7 @@ BASE_PATH : http://bnmry.github.io/
 aboutPage: true
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 gems: 
   - jekyll-youtube
