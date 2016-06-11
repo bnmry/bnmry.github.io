@@ -10,4 +10,6 @@ gem 'github-pages', versions['github-pages']
 group :jekyll_plugins do
   gem "jekyll-youtube"
   gem "jekyll-app-engine"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
 end

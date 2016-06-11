@@ -1,0 +1,19 @@
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.5-dev" # 3.5 development branch
+  - "nightly" # currently points to 3.6-dev
+
+deploy:
+  provider: gae
+  keyfile: client-secret.json
+  project: brm-website
+  
+before_install:
+- openssl aes-256-cbc -K $encrypted_2f0c7604e308_key -iv $encrypted_2f0c7604e308_iv
+  -in client-secret.json.enc -out client-secret.json -d
