@@ -1,5 +1,7 @@
 language: go
 
+script: go test -v ./...
+
 deploy:
   provider: gae
   keyfile: client-secret.json
