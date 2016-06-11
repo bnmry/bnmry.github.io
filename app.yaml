@@ -1,45 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Ben Murray | Stories &amp; Observations</title>
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="alternate" type="application/rss+xml" title="Ben Murray" href="/rss.xml">
-  <link rel="stylesheet" href="/assets/css/highlight.css">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  
-</head>
-<body>
-
-  <nav class="main-nav">
-    
-        <a href="/"> <span class="arrow">←</span> Home </a>
-    
-
-    
-        
-            <a href="/about">About </a>
-        
-    
-	<a href="http://hi.benmurray.us">Moments</a>
-	<a href="http://photos.benmurray.us">Photos</a>
-	<a href="http://www.facebook.com/benmurray"><i class="fa fa-facebook"></i></a>
-	<a href="http://www.instagram.com/bnmry"><i class="fa fa-instagram"></i></a>
-	<a href="http://www.twitter.com/bmurray"><i class="fa fa-twitter"></i></a>
-    <!-- <a class="cta" href="/feed.xml">Subscribe</a> -->
-	
-</nav>
-
-  
-
-  <section id="wrapper" class="">
-    ---
-runtime: python27
-api_version: 1
+---
+runtime: go
+api_version: go1
 default_expiration: 300s
 handlers:
 - url: "/2010/censor-busting/"
@@ -144,25 +105,3 @@ handlers:
 - url: "/untitled.py"
   static_files: _site/untitled.py
   upload: _site/untitled.py
-
-  </section>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="/assets/js/main.js"></script>
-  <script src="/assets/js/highlight.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-504797-6', 'auto');
-    ga('send', 'pageview');
-  </script>
-</body>
-</html>
-
-
-

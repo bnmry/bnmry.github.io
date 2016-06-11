@@ -1,4 +1,4 @@
-language: python
+language: go
 
 deploy:
   provider: gae
