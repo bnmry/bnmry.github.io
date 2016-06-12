@@ -22,11 +22,33 @@ google_analytics: 'UA-504797-6'
 disqus: true
 disqus_shortname: 'benmurray'
 
+exclude: [
+  ".gitignore",
+  ".travis.yml",
+  "app.yaml",
+  "Gemfile",
+  "README.md",
+  "gtest.go",
+  "client-secret.json",
+  "client-secret.json.enc",
+  "CNAME",
+  "LICENSE"]
+
 # AppEngine deploy specifications
 app_engine:
   runtime: go
   api_version: go1
   default_expiration: 300s
+  handlers:
+    posts:
+      http_headers:
+        Link: "</assets/css/style.css>; rel=preload; as=style,"
+    pages:
+      http_headers:
+        Link: "</assets/css/style.css>; rel=preload; as=style,"
+    static:
+      url: /assets/
+      static_dir: _site/assets
 
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
