@@ -7,12 +7,15 @@ before_install:
   -in client-secret.json.enc -out client-secret.json -d
 
 install: gem install jekyll jekyll-paginate jekyll-app-engine jekyll-sitemap html-proofer
+- bundle install
 
-script: bundle exec jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore
+script: jekyll build && htmlproofer ./_site --disable-external
 
 deploy:
   provider: gae
   keyfile: client-secret.json
   project: brm-website
 
-after_deploy: bundle exec jekyll build
+after_deploy: jekyll build
+
+sudo: false

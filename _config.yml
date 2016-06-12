@@ -50,6 +50,9 @@ app_engine:
       url: /assets/
       static_dir: _site/assets
 
+# So that Travis doesn't mistakenly read the bundled gems and explode
+exclude: [vendor]
+
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
 author:         'Ben Murray'
