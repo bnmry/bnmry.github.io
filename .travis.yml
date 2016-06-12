@@ -7,7 +7,6 @@ before_install:
   -in client-secret.json.enc -out client-secret.json -d
 
 install: gem install jekyll jekyll-paginate jekyll-app-engine jekyll-sitemap html-proofer
-  -bundle install
 
 script: jekyll build && htmlproofer ./_site --disable-external
 
