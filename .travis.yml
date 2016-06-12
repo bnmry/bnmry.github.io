@@ -8,7 +8,7 @@ before_install:
 
 install: gem install jekyll jekyll-paginate jekyll-app-engine jekyll-sitemap html-proofer
 
-script: bundle exec jekyll build
+script: jekyll serve --baseurl "" --detach && htmlproofer ./_site --disable-external --empty-alt-ignore
 
 deploy:
   provider: gae
