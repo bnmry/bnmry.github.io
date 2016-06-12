@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-- 2.1
+- 2.3
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_2f0c7604e308_key -iv $encrypted_2f0c7604e308_iv
@@ -8,7 +8,7 @@ before_install:
 
 install: gem install jekyll jekyll-paginate jekyll-app-engine jekyll-sitemap html-proofer
 
-script: bundle exec jekyll build && htmlproofer ./_site --disable-external
+script: bundle exec jekyll build
 
 deploy:
   provider: gae
