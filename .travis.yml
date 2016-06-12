@@ -8,13 +8,13 @@ before_install:
 
 install: gem install jekyll jekyll-paginate jekyll-app-engine jekyll-sitemap html-proofer
 
-script: jekyll build && htmlproofer ./_site --disable-external
+script: bundle exec jekyll build && htmlproofer ./_site --disable-external
 
 deploy:
   provider: gae
   keyfile: client-secret.json
   project: brm-website
 
-after_deploy: jekyll build
+after_deploy: bundle exec jekyll build
 
 sudo: false
