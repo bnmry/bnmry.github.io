@@ -2,7 +2,7 @@
 
 title:  "Epic snow"
 date:   2010-12-20 21:15:00
-description: Internet
+description: Photos
 
 ---
 

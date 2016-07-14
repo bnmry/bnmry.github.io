@@ -1,6 +1,6 @@
 ---
 title:  "Snowzilla takes New York"
-description: Travel
+description: Photos
 date: 2016-01-24 10:00:00
 published: true
 ---

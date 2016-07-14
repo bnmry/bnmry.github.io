@@ -4,14 +4,15 @@ permalink: about/
 profile: true
 ---
 
-<a  href="http://photos.benmurray.us/Street-Scenes/Spring-in-Dupont/i-GvgNV9p/A"><img class="wide-img"  src="http://photos.benmurray.us/Street-Scenes/Spring-in-Dupont/i-GvgNV9p/0/L/BRM-20100401-Photo%20Hunt-215-L.jpg" alt="On the walk home.  Washington, DC.  April 2010."></a>
+I am a digital strategist in New York building campaigns online for social good. I work as Vice President at [Blue State Digital](http://www.bluestatedigital.com "Blue State Digital"), an agency and technology company that works with non-profits, advocacy organizations and brands. I’ve led partnerships with Google, MIT, the Obama Foundation, NAACP, P&G and many others. 
 
-# Hi, I'm Ben #
+I’ve also worked at the Podesta Group, U.S. Senate, U.S. Department of Justice, Xerox Corporation and a successful congressional campaign. 
 
-I'm a digital strategist who enjoys building digital campaigns that bring people together for good causes. I work for Blue State Digital in New York, where I've partnered with clients like Google, NAACP, Elizabeth Glaser Pediatric AIDS Foundation, the Kapor Center, the United Way, Procter & Gamble and others.
+I am a graduate of the London School of Economics and American University.
 
-I have a background in political advocacy, and have worked with the Podesta Group, U.S. Senator Hillary Rodham Clinton, the U.S. Department of Justice and Xerox Corporation.
+I am an occasional triathlete and photographer. I love travel, nature and equal rights.
 
-I have a Master of Science degree from the London School of Economics & Political Science, and a Bachelor of Arts degree from American University in Washington, D.C. I am mediocre triathlete, and a fan of travel, nature and equal rights.
+[LinkedIn &#8594;](http://www.linkedin.com/in/benmurray "LinkedIn Profile")<br />
+[Full bio &#8594;](/bio/ "Ben Murray Bio")
 
 {% include footer.html %}
