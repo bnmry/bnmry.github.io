@@ -300,6 +300,11 @@ blockquote {
 	border-left: 3px solid #eee;
 }
 
+.caption {
+	font-size:12px;
+	font:italic;
+}
+
 hr {
 	display: block;
 	border: none;
