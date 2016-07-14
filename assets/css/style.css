@@ -382,6 +382,21 @@ img {
 	margin: 0 -25%;
 }
 
+.narrow-img-left {
+	width: 48%;
+	max-width: 50%;
+	border-radius: 3px;
+	float: left;
+	margin-right:10px;
+}
+
+.narrow-img-right {
+	width: 48%;
+	max-width: 50%;
+	border-radius: 3px;
+	margin-left:10px;
+}
+
 .wide-vid {
 	width: 780px;
 	max-width: 780px;
