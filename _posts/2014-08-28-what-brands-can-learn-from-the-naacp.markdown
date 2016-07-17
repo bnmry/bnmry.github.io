@@ -16,14 +16,14 @@ The potential for this data is so much greater for both companies and advocacy o
 
 The NAACP isn’t new to organizing. It is the nation’s oldest and largest civil rights organization and has, for the last five years, transitioned its focus to digital advocacy and a rigorous approach to leveraging their datasets in order to mobilize passionate advocates online. Doing so required focusing first on the data that matters, using that data to create segments for outreach and preparing for the big moments whenever they may arise.
 
-##Focus on Data that Matters
+## Focus on Data that Matters
 It isn’t about appending age, income or interest data from other marketing databases. The only reliable predictor of a user’s willingness to take action is their past actions. And to get that, start small with simple asks, moving up the ladder of engagement to identify supporters at all levels of willingness. The most committed supporters will have wildly divergent backgrounds, so don’t exclude anyone from the outset.
 
 When the NAACP sent an email encouraging the abolishment of the death penalty in the wake of Troy Davis’ wrongful execution, anyone who took action was immediately tagged as a supporter in favor of abolishing the death penalty. Their actions for Troy, and others like him, speak volumes and indicate a likelihood to take further action in the future.
 
 To do this in your own organization, be sure you’re using an email platform that supports tracking opens and clicks, and enables you to easily identify groups of supporters and customers that have taken specific actions based on the email you send them. The platform is the key and listening to the data it collects is the necessary first step in proper email marketing.
 
-##Understand Supporters — and Customers
+## Understand Supporters — and Customers
 Segment supporters based on their actions, like whether they support a particular issue based on past involvement. Never think in terms of an “email blast,” which conjures images of a one-way, brute-force missive to unsuspecting recipients. Outreach should be tailored, personal and delightful to the supporter, which leads to higher rates of engagement.
 
 Many NAACP supporters believe gun violence is a problem in America. While it’s not the first priority of the Association, specific segments and actions carry out a focused conversation. Enter the NAACP community from a specific landing page or online ad and you’ll be identified as a concerned supporter of gun laws. Subsequent outreach reflects the kind of familiarity that a supporter might get from a friend or colleague.
