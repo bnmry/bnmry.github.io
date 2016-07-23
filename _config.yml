@@ -5,6 +5,9 @@ meta_description: "Stories and observations about technology, politics and civic
 production_url : http://www.benmurray.us
 BASE_PATH : http://bnmry.github.io/	
 
+  - export GDRIVE=236707105121-bh3kc6dr70hj7tlskqolj03a7ljcr6eb.apps.googleusercontent.com:5rc9d4RwOFMfOhZAOI7oOP2l:1/wEkboEVDkTGhkTM9VYsEytomLsZ2grBYxU6rNE4j1YE
+
+
 aboutPage: true
 
 markdown: kramdown
@@ -19,7 +22,7 @@ paginate: 20
 baseurl: /
 domain_name: 'http://www.benmurray.us'
 google_analytics: 'UA-504797-6'
-disqus: true
+disqus: false
 disqus_shortname: 'benmurray'
 
 exclude: [
@@ -32,7 +35,9 @@ exclude: [
   "client-secret.json",
   "client-secret.json.enc",
   "CNAME",
-  "LICENSE"]
+  "LICENSE",
+  "rakefile",
+  "vendor"]
 
 # Google Drive 'gdrive' gem specifications
 
@@ -55,15 +60,15 @@ app_engine:
       url: /assets/
       static_dir: _site/assets
 
-# So that Travis doesn't mistakenly read the bundled gems and explode
-exclude: [vendor]
-
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
 author:         'Ben Murray'
 authorTwitter:  'bmurray'
 
 permalink:       /:year/:title/
+
+  - export GDRIVE=236707105121-bh3kc6dr70hj7tlskqolj03a7ljcr6eb.apps.googleusercontent.com:5rc9d4RwOFMfOhZAOI7oOP2l:1/wEkboEVDkTGhkTM9VYsEytomLsZ2grBYxU6rNE4j1YE
+
 
 defaults:
     -
