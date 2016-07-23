@@ -1,3 +1,5 @@
+$ export GDRIVE=236707105121-bh3kc6dr70hj7tlskqolj03a7ljcr6eb.apps.googleusercontent.com:5rc9d4RwOFMfOhZAOI7oOP2l:1/wEkboEVDkTGhkTM9VYsEytomLsZ2grBYxU6rNE4j1YE
+
 name: Ben Murray
 description: Stories and observations.
 meta_description: "Stories and observations about technology, politics and civic engagement."
@@ -22,6 +24,8 @@ google_analytics: 'UA-504797-6'
 disqus: true
 disqus_shortname: 'benmurray'
 
+
+
 exclude: [
   ".gitignore",
   ".travis.yml",
@@ -35,9 +39,10 @@ exclude: [
   "LICENSE"]
 
 # Google Drive 'gdrive' gem specifications
+
 gdrive:
   sheet: "BRM Website Data"
-
+  
 # AppEngine deploy specifications
 app_engine:
   runtime: go
