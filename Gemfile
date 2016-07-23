@@ -12,4 +12,5 @@ group :jekyll_plugins do
   gem "jekyll-app-engine"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
+  gem 'jekyll-gdrive'
 end
