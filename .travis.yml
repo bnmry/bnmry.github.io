@@ -7,10 +7,10 @@ before_install:
   -in client-secret.json.enc -out client-secret.json -d
 
 install:
-  - bundle exec jekyll build
+  - bundle install
 
 script:
-  - jekyll build
+  - bundle exec jekyll build
 
 deploy:
   provider: gae
