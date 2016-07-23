@@ -9,6 +9,9 @@ before_install:
 install:
   - bundle install
 
+before_script:
+  - export GDRIVE=236707105121-bh3kc6dr70hj7tlskqolj03a7ljcr6eb.apps.googleusercontent.com:5rc9d4RwOFMfOhZAOI7oOP2l:1/wEkboEVDkTGhkTM9VYsEytomLsZ2grBYxU6rNE4j1YE
+
 script:
   - bundle exec jekyll build
 
