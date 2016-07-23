@@ -7,7 +7,7 @@ before_install:
   -in client-secret.json.enc -out client-secret.json -d
 
 install:
-  - gem install jekyll
+  - bundle exec jekyll build
 
 script:
   - jekyll build
