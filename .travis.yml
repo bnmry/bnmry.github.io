@@ -19,5 +19,6 @@ deploy:
   provider: gae
   keyfile: client-secret.json
   project: brm-website
+  default: gcloud app deploy
 
 sudo: false
