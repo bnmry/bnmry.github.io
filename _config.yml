@@ -28,7 +28,6 @@ exclude: [
   "app.yaml",
   "Gemfile",
   "README.md",
-  "gtest.go",
   "client-secret.json",
   "client-secret.json.enc",
   "CNAME",
@@ -47,13 +46,13 @@ app_engine:
   api_version: 1
   default_expiration: 300s
   threadsafe: true
-  handlers:
-    - url: /
-      static_files: _site/index.html
-      upload: _site/index.html
-    - url: /(.*)
-      static_files: _site/\1
-      upload: _site/(.*)
+handlers:
+- url: /
+  static_files: _site/index.html
+  upload: _site/index.html
+- url: /(.*)
+  static_files: _site/\1
+  upload: _site/(.*)
 
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
@@ -61,9 +60,6 @@ author:         'Ben Murray'
 authorTwitter:  'bmurray'
 
 permalink:       /:year/:title/
-
-  - export GDRIVE=236707105121-bh3kc6dr70hj7tlskqolj03a7ljcr6eb.apps.googleusercontent.com:5rc9d4RwOFMfOhZAOI7oOP2l:1/wEkboEVDkTGhkTM9VYsEytomLsZ2grBYxU6rNE4j1YE
-
 
 defaults:
     -

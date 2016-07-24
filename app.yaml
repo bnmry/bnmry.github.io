@@ -1,82 +1,117 @@
 ---
-runtime: go
-api_version: go1
+runtime: python27
+api_version: 1
 default_expiration: 300s
+threadsafe: true
 handlers:
 - url: "/2010/censor-busting/"
   static_files: _site/2010/censor-busting/index.html
   upload: _site/2010/censor-busting/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2010/epic-snow/"
   static_files: _site/2010/epic-snow/index.html
   upload: _site/2010/epic-snow/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2011/everywhere-nowhere/"
   static_files: _site/2011/everywhere-nowhere/index.html
   upload: _site/2011/everywhere-nowhere/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2011/alone-together/"
   static_files: _site/2011/alone-together/index.html
   upload: _site/2011/alone-together/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2013/what-brands-can-learn-from-the-naacp/"
   static_files: _site/2013/what-brands-can-learn-from-the-naacp/index.html
   upload: _site/2013/what-brands-can-learn-from-the-naacp/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2014/vint-cerf/"
   static_files: _site/2014/vint-cerf/index.html
   upload: _site/2014/vint-cerf/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2016/snowzilla/"
   static_files: _site/2016/snowzilla/index.html
   upload: _site/2016/snowzilla/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/2016/syracuse/"
   static_files: _site/2016/syracuse/index.html
   upload: _site/2016/syracuse/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/404.html"
   static_files: _site/404.html
   upload: _site/404.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/about/"
   static_files: _site/about/index.html
   upload: _site/about/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/bio/"
   static_files: _site/bio/index.html
   upload: _site/bio/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/data/"
   static_files: _site/data/index.html
   upload: _site/data/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/feed.xml"
   static_files: _site/feed.xml
   upload: _site/feed.xml
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/"
   static_files: _site/index.html
   upload: _site/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
 - url: "/site/"
   static_files: _site/site/index.html
   upload: _site/site/index.html
-  http_headers:
-    Link: "</assets/css/style.css>; rel=preload; as=style,"
-- url: "/assets/"
-  static_dir: _site/assets
+- url: "/assets/css/highlight.css"
+  static_files: _site/assets/css/highlight.css
+  upload: _site/assets/css/highlight.css
+- url: "/assets/css/style.css"
+  static_files: _site/assets/css/style.css
+  upload: _site/assets/css/style.css
+- url: "/assets/fonts/icons.eot"
+  static_files: _site/assets/fonts/icons.eot
+  upload: _site/assets/fonts/icons.eot
+- url: "/assets/fonts/icons.svg"
+  static_files: _site/assets/fonts/icons.svg
+  upload: _site/assets/fonts/icons.svg
+- url: "/assets/fonts/icons.ttf"
+  static_files: _site/assets/fonts/icons.ttf
+  upload: _site/assets/fonts/icons.ttf
+- url: "/assets/fonts/icons.woff"
+  static_files: _site/assets/fonts/icons.woff
+  upload: _site/assets/fonts/icons.woff
+- url: "/assets/images/2016/201606-trainingpeaks-syracuse.jpg"
+  static_files: _site/assets/images/2016/201606-trainingpeaks-syracuse.jpg
+  upload: _site/assets/images/2016/201606-trainingpeaks-syracuse.jpg
+- url: "/assets/images/2016/31_m-100724155-DIGITAL_HIGHRES-1354_035883-1855024.jpg"
+  static_files: _site/assets/images/2016/31_m-100724155-DIGITAL_HIGHRES-1354_035883-1855024.jpg
+  upload: _site/assets/images/2016/31_m-100724155-DIGITAL_HIGHRES-1354_035883-1855024.jpg
+- url: "/assets/images/2016/9_m-100724155-DIGITAL_HIGHRES-1354_012882-1855002.jpg"
+  static_files: _site/assets/images/2016/9_m-100724155-DIGITAL_HIGHRES-1354_012882-1855002.jpg
+  upload: _site/assets/images/2016/9_m-100724155-DIGITAL_HIGHRES-1354_012882-1855002.jpg
+- url: "/assets/images/2016/BRM-20160123-Snowzilla-5245.jpg"
+  static_files: _site/assets/images/2016/BRM-20160123-Snowzilla-5245.jpg
+  upload: _site/assets/images/2016/BRM-20160123-Snowzilla-5245.jpg
+- url: "/assets/images/2016/BRM-20160123-Snowzilla-5271.jpg"
+  static_files: _site/assets/images/2016/BRM-20160123-Snowzilla-5271.jpg
+  upload: _site/assets/images/2016/BRM-20160123-Snowzilla-5271.jpg
+- url: "/assets/images/2016/BRM-20160123-Snowzilla-5307.jpg"
+  static_files: _site/assets/images/2016/BRM-20160123-Snowzilla-5307.jpg
+  upload: _site/assets/images/2016/BRM-20160123-Snowzilla-5307.jpg
+- url: "/assets/images/2016/BRM-20160123-Snowzilla-5308.jpg"
+  static_files: _site/assets/images/2016/BRM-20160123-Snowzilla-5308.jpg
+  upload: _site/assets/images/2016/BRM-20160123-Snowzilla-5308.jpg
+- url: "/assets/images/2016/BRM-20160619-IM703Syracuse-5849.jpg"
+  static_files: _site/assets/images/2016/BRM-20160619-IM703Syracuse-5849.jpg
+  upload: _site/assets/images/2016/BRM-20160619-IM703Syracuse-5849.jpg
+- url: "/assets/images/2016/BRM-20160619-IM703Syracuse-5858.jpg"
+  static_files: _site/assets/images/2016/BRM-20160619-IM703Syracuse-5858.jpg
+  upload: _site/assets/images/2016/BRM-20160619-IM703Syracuse-5858.jpg
+- url: "/assets/images/2016/BRM-20160619-IM703Syracuse-6000.jpg"
+  static_files: _site/assets/images/2016/BRM-20160619-IM703Syracuse-6000.jpg
+  upload: _site/assets/images/2016/BRM-20160619-IM703Syracuse-6000.jpg
+- url: "/assets/images/2016/snowzilla1.jpg"
+  static_files: _site/assets/images/2016/snowzilla1.jpg
+  upload: _site/assets/images/2016/snowzilla1.jpg
+- url: "/assets/images/brm-photo.gif"
+  static_files: _site/assets/images/brm-photo.gif
+  upload: _site/assets/images/brm-photo.gif
+- url: "/assets/images/brm-stamp.gif"
+  static_files: _site/assets/images/brm-stamp.gif
+  upload: _site/assets/images/brm-stamp.gif
+- url: "/assets/images/favicon.ico"
+  static_files: _site/assets/images/favicon.ico
+  upload: _site/assets/images/favicon.ico
+- url: "/assets/js/highlight.js"
+  static_files: _site/assets/js/highlight.js
+  upload: _site/assets/js/highlight.js
+- url: "/assets/js/main.js"
+  static_files: _site/assets/js/main.js
+  upload: _site/assets/js/main.js
