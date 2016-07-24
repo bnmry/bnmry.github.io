@@ -5,9 +5,6 @@ meta_description: "Stories and observations about technology, politics and civic
 production_url : http://www.benmurray.us
 BASE_PATH : http://bnmry.github.io/	
 
-  - export GDRIVE=236707105121-bh3kc6dr70hj7tlskqolj03a7ljcr6eb.apps.googleusercontent.com:5rc9d4RwOFMfOhZAOI7oOP2l:1/wEkboEVDkTGhkTM9VYsEytomLsZ2grBYxU6rNE4j1YE
-
-
 aboutPage: true
 
 markdown: kramdown
@@ -46,19 +43,17 @@ gdrive:
   
 # AppEngine deploy specifications
 app_engine:
-  runtime: go
-  api_version: go1
+  runtime: python27
+  api_version: 1
   default_expiration: 300s
+  threadsafe: true
   handlers:
-    posts:
-      http_headers:
-        Link: "</assets/css/style.css>; rel=preload; as=style,"
-    pages:
-      http_headers:
-        Link: "</assets/css/style.css>; rel=preload; as=style,"
-    static:
-      url: /assets/
-      static_dir: _site/assets
+    - url: /
+      static_files: _site/index.html
+      upload: _site/index.html
+    - url: /(.*)
+      static_files: _site/\1
+      upload: _site/(.*)
 
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
