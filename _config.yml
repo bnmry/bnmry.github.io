@@ -53,6 +53,9 @@ handlers:
 - url: /(.*)
   static_files: _site/\1
   upload: _site/(.*)
+- url: /.*
+  static_files: _site/404.html
+  upload: _site/404.html
 
 # Details for the RSS feed generator
 url:            'http://www.benmurray.us'
