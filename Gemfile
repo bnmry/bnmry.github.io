@@ -8,11 +8,11 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 gem 'github-pages', versions['github-pages']
 
 group :jekyll_plugins do
+  gem "jekyll"
   gem "jekyll-youtube"
   gem "jekyll-app-engine"
   gem "jekyll-sitemap"
   gem "jekyll-paginate"
-  gem 'jekyll-gdrive'
 end
 
 group :test do

@@ -34,11 +34,6 @@ exclude: [
   "LICENSE",
   "rakefile",
   "vendor"]
-
-# Google Drive 'gdrive' gem specifications
-
-gdrive:
-  sheet: "BRM Website Data"
   
 # AppEngine deploy specifications
 app_engine:
